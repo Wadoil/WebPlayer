@@ -1,0 +1,21 @@
+{
+  "name": "izhogaplayer_front",
+  "version": "1.0.0",
+  "description": "frontend for my college web classes",
+  "keywords": [
+    "frontend",
+    "layout"
+  ],
+  "license": "ISC",
+  "author": "wadoil",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "tailwindcss": "^4.1.16"
+  }
+}

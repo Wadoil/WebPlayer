@@ -1,0 +1,11 @@
+FROM node:24
+
+workdir /usr/src/app
+
+copy package*.json ./
+
+run npm install
+
+expose 3001
+
+cmd ["npm", "run", "dev"]
