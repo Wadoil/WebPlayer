@@ -9,7 +9,7 @@
                                       Создавайте плейлисты, находите треки для фитнеса, фона и работы. 
                                       Начните воспроизведение любимой музыки прямо сейчас!">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script defer type="module" src="index.js"></script>
+    <script defer type="module" src="frontend/public/index.js"></script>
     <title>Izhoga™ - Главная</title>
 </head>
 <body class="bg-gray-100 dark:bg-gray-800 min-h-screen flex flex-col">
@@ -21,7 +21,7 @@
                 <span class="self-center text-2xl font-semibold whitespace-nowrap text-black dark:text-white">IZHOGA</span>
             </a>
             <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <a href="user.html" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
+                <a href="frontend/public/user.html" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
                     <img class="w-8 h-8 rounded-full" src="src/images/PlaceholderAvatar.JPG" alt="user photo">
                 </a>
             </div>
@@ -31,13 +31,13 @@
                         <a href="index.html" class="block py-2 px-3 text-black dark:text-white bg-red-700 rounded-sm md:bg-transparent md:text-red-500 md:p-0 dark:md:text-red-500" aria-current="page">Главная</a>
                     </li>
                     <li>
-                        <a href="player.html" class="block py-2 px-3 text-black dark:text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Поиск</a>
+                        <a href="frontend/public/player.html" class="block py-2 px-3 text-black dark:text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Поиск</a>
                     </li>
                     <li>
-                        <a href="about.html" class="block py-2 px-3 text-black dark:text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">О плеере</a>
+                        <a href="frontend/public/about.html" class="block py-2 px-3 text-black dark:text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">О плеере</a>
                     </li>
                     <li>
-                        <a href="contacts.html" class="block py-2 px-3 text-black dark:text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Контакты</a>
+                        <a href="frontend/public/contacts.html" class="block py-2 px-3 text-black dark:text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-500 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -71,28 +71,28 @@
             <div class="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
                 <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Пользователь</h2>
                 <p class="text-gray-700 dark:text-gray-300">Войдите в систему, чтобы получить доступ к персонализированным функциям.</p>
-                <a href="user.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Войти</a>
+                <a href="frontend/public/user.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Войти</a>
             </div>
             
             <!-- Блок поиска музыки -->
             <div class="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
                 <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Поиск музыки</h2>
                 <p class="text-gray-700 dark:text-gray-300">Найдите своих любимых исполнителей, плейлисты и композиции.</p>
-                <a href="player.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Начать поиск</a>
+                <a href="frontend/public/player.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Начать поиск</a>
             </div>
             
             <!-- Блок о плеере -->
             <div class="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
                 <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">О плеере</h2>
                 <p class="text-gray-700 dark:text-gray-300">Узнайте больше о нашем музыкальном плеере и его возможностях.</p>
-                <a href="about.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Подробнее</a>
+                <a href="frontend/public/about.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Подробнее</a>
             </div>
             
             <!-- Блок контакты -->
             <div class="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
                 <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Контакты</h2>
                 <p class="text-gray-700 dark:text-gray-300">Свяжитесь с нами для получения дополнительной информации.</p>
-                <a href="contacts.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Контакты</a>
+                <a href="frontend/public/contacts.html" class="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition">Контакты</a>
             </div>
         </div>
     </main>
